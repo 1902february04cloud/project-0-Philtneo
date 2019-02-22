@@ -17,7 +17,7 @@ transaction_path = 'io'
 
 
 '''
-This is your main script, this should call several other scripts within your packages.
+This is the service script.
 '''
 
 def userMenu(user):

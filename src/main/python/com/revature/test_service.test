@@ -1,0 +1,44 @@
+#!/usr/bin/env python3
+
+import os.path
+import os
+from controller import controller
+from service import service
+
+'''
+This tests the service script
+'''
+
+
+def main():
+	testService()
+
+
+def testService():
+
+	completeName = os.path.join('users', 'test.txt')
+	file = open(completeName, 'w')
+	file.write('test password 250.00')
+	file.close()
+
+	print('Starting money: $250.00')
+	#print('Expected after 50 dollar withdraw')
+	for line in open(completeName, 'r').readlines():
+		login_info = line.split()
+	
+	print('Testing withdraw function')
+	login_info = service.withdraw(login_info) 
+
+	print('Testing deposit function')
+	login_info = service.deposit(login_info)
+
+	os.remove(completeName)
+	
+
+
+
+
+
+
+if __name__ == '__main__':
+	main()

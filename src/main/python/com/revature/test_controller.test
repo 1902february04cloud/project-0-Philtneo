@@ -1,0 +1,52 @@
+#!/usr/bin/env python3
+
+import os.path
+import os
+from controller import controller
+from service import service
+
+'''
+This tests the controller script
+'''
+
+
+
+def main():
+	testController()
+
+
+def testController():
+
+	completeName = os.path.join('users', 'test.txt')
+	file = open(completeName,'w')
+	file.write('test password 250.00')
+	file.close()
+
+	#print('Expected after 50 dollar withdraw')
+	for line in open(completeName, 'r').readlines():
+		login_info = line.split()
+	
+	print('Check username = test : password = password')
+	
+	answer =controller.login() 
+
+	if (answer == False):
+		print('Wrong username and password and did not log in. Function working correctly.')
+	else: 
+		print('Login worked. Function working correctly!')
+
+	print('Try it again with correct/incorrect username and password')
+	answer = controller.login()
+
+	if(answer == False):
+		print('Wrong username and password and did not log in. Function working correctly.')
+	else:
+		print('Login worked. Function working correctly!')
+
+
+	os.remove(completeName)
+
+
+
+if __name__ == '__main__':
+	main()

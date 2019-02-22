@@ -1,39 +1,6 @@
-2019-02-22 00:02:53,460 : WARNING : Logs : Selected invalid choice on first menu
-2019-02-22 00:02:53,837 : WARNING : Logs : Selected invalid choice on first menu
-2019-02-22 00:04:39,488 : WARNING : Logs : Selected invalid choice on first menu
-2019-02-22 00:04:41,481 : DEBUG : Logs : Create User function
-2019-02-22 00:04:43,489 : WARNING : Logs : Username was taken
-2019-02-22 00:04:45,561 : DEBUG : Logs : Login function
-2019-02-22 00:04:48,356 : WARNING : Logs : Cannot login because wrong username or password
-2019-02-22 00:04:48,357 : WARNING : Logs : Username or Password Failed
-2019-02-22 00:04:52,507 : DEBUG : Logs : Login function
-2019-02-22 00:04:57,157 : WARNING : Logs : Cannot login because wrong username or password
-2019-02-22 00:04:57,157 : WARNING : Logs : Username or Password Failed
-2019-02-22 00:04:59,752 : INFO : Logs : Logged out
-2019-02-22 00:05:25,217 : DEBUG : Logs : Forgot Password function
-2019-02-22 00:05:30,675 : WARNING : Logs : Username does not exist
-2019-02-22 00:05:33,332 : DEBUG : Logs : Create User function
-2019-02-22 00:05:36,311 : WARNING : Logs : Username was taken
-2019-02-22 00:05:38,043 : DEBUG : Logs : Login function
-2019-02-22 00:05:40,316 : WARNING : Logs : Cannot login because wrong username or password
-2019-02-22 00:05:40,316 : WARNING : Logs : Username or Password Failed
-2019-02-22 00:05:44,322 : DEBUG : Logs : Login function
-2019-02-22 00:06:02,323 : WARNING : Logs : Selected invalid choice on first menu
-2019-02-22 00:06:04,540 : INFO : Logs : Logged out
-2019-02-22 00:08:56,784 : WARNING : Logs : Selected invalid choice on first menu
-2019-02-22 00:08:57,926 : WARNING : Logs : Selected invalid choice on first menu
-2019-02-22 00:08:58,647 : INFO : Logs : Logged out
-2019-02-22 00:11:56,342 : DEBUG : Logs : Login function
-2019-02-22 00:11:58,411 : WARNING : Logs : Cannot login because wrong username or password
-2019-02-22 00:11:58,411 : WARNING : Logs : Username or Password Failed
-2019-02-22 00:12:01,777 : DEBUG : Logs : Login function
-2019-02-22 00:12:13,411 : DEBUG : Logs : Deposit function called
-2019-02-22 00:12:17,742 : INFO : Logs : Logged out
-2019-02-22 00:12:21,787 : DEBUG : Logs : Login function
-2019-02-22 00:12:27,092 : INFO : Logs : Logged out
-2019-02-22 00:12:34,674 : DEBUG : Logs : Forgot Password function
-2019-02-22 00:12:39,498 : INFO : Logs : Logged out
-2019-02-22 00:12:42,054 : DEBUG : Logs : Login function
-2019-02-22 00:12:48,446 : DEBUG : Logs : View Transaction function called
-2019-02-22 00:12:53,094 : INFO : Logs : Logged out
-2019-02-22 00:20:01,541 : INFO : Logs : Logged out
+2019-02-22 10:20:37,637 : WARNING : Logs : Selected invalid choice on first menu
+2019-02-22 10:20:40,379 : DEBUG : Logs : Create User function
+2019-02-22 10:20:48,277 : DEBUG : Logs : Login function
+2019-02-22 10:20:58,429 : DEBUG : Logs : Deposit function called
+2019-02-22 10:21:01,008 : DEBUG : Logs : View Transaction function called
+2019-02-22 10:21:08,883 : INFO : Logs : Logged out
