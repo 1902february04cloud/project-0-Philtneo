@@ -7,7 +7,7 @@ import os.path
 import getpass
 import datetime
 
-logging.basicConfig(filename = 'fileError.log', level = logging.DEBUG, format = '%(asctime)s : %(levelname)s : %(name)s : %(message)s', filemode = 'a')
+logging.basicConfig(filename = 'fileError.log', format = '%(asctime)s : %(levelname)s : %(name)s : %(message)s', filemode = 'a')
 
 
 logger = logging.getLogger('Logs')
@@ -34,7 +34,7 @@ def userMenu(user):
 	
 		if(selection == '1'):
 			print('Balance: ${0:.2f}'.format(float(user[2])))
-					
+			logger.info('Viewing balance')		
 		elif(selection == '2'):
 			withdraw(user)		
 			logger.debug('Withdraw function called')
@@ -63,7 +63,7 @@ def withdraw(user):
 	withdraw = input('How much to withdraw: $')
 	if(float(withdraw) > float(user[2])):
 		print('Not enough money to withdraw')
-		logger.warning('Not enough money to withdraw')
+		logger.error('Not enough money to withdraw')
 	else:
 		ioPath = os.path.join(transaction_path, user[0] + '.txt')
 		user[2] = float(user[2]) - float(withdraw)
@@ -79,7 +79,7 @@ def deposit(user):
 	deposit = input('How much to deposit: $')
 	if(float(deposit) < 0):
 		print('Must deposit more than 0')
-		logger.warning('Must deposit more than 0')
+		logger.error('Must deposit more than 0')
 	else:
 		ioPath = os.path.join(transaction_path, user[0] + '.txt')
 		user[2] = float(user[2]) + float(deposit)

@@ -4,3 +4,20 @@
 2019-02-22 10:20:58,429 : DEBUG : Logs : Deposit function called
 2019-02-22 10:21:01,008 : DEBUG : Logs : View Transaction function called
 2019-02-22 10:21:08,883 : INFO : Logs : Logged out
+2019-02-22 11:11:22,641 : DEBUG : Logs : Forgot Password function
+2019-02-22 11:11:24,463 : ERROR : Logs : Username does not exist
+2019-02-22 11:11:25,065 : WARNING : Logs : Selected invalid choice on first menu
+2019-02-22 11:11:27,329 : INFO : Logs : Logged out
+2019-02-22 11:12:06,217 : DEBUG : Logs : Forgot Password function
+2019-02-22 11:12:07,897 : ERROR : Logs : Username does not exist
+2019-02-22 11:12:08,553 : WARNING : Logs : Selected invalid choice on first menu
+2019-02-22 11:12:12,314 : DEBUG : Logs : Forgot Password function
+2019-02-22 11:12:14,327 : ERROR : Logs : Username does not exist
+2019-02-22 11:12:16,092 : INFO : Logs : Logged out
+2019-02-22 11:27:12,867 : WARNING : Logs : Username or Password Failed
+2019-02-22 11:27:29,981 : WARNING : Logs : Must deposit more than 0
+2019-02-22 11:27:38,690 : WARNING : Logs : Not enough money to withdraw
+2019-02-22 11:27:41,280 : WARNING : Logs : Invalid choice on user menu
+2019-02-22 11:34:48,259 : WARNING : Logs : Invalid choice on user menu
+2019-02-22 11:35:14,829 : ERROR : Logs : Not enough money to withdraw
+2019-02-22 11:35:19,012 : ERROR : Logs : Must deposit more than 0

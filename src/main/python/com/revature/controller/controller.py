@@ -7,7 +7,7 @@ import logging
 import os.path
 import getpass
 
-logging.basicConfig(filename = 'fileError.log', level = logging.DEBUG, format = '%(asctime)s : %(levelname)s : %(name)s : %(message)s', filemode = 'a')
+logging.basicConfig(filename = 'fileError.log', format = '%(asctime)s : %(levelname)s : %(name)s : %(message)s', filemode = 'a')
 
 logger = logging.getLogger('Logs')
 
@@ -65,7 +65,7 @@ def forgotPassword():
 		f.close()
 	except IOError:
 		print('Username does not exist')
-		logger.warning('Username does not exist')	
+		logger.error('Username does not exist')	
 
 
 def createUser():
